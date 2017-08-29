@@ -2,7 +2,7 @@ var ship;
 var direction=0;
 var missiles;
 var asteroids;
-var backgroundC=255;
+var backgroundC=125;
 
 function setup() {
   createCanvas(640,360);
