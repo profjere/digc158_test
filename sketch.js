@@ -5,7 +5,7 @@ var asteroids;
 var backgroundC=125;
 
 function setup() {
-  createCanvas(640,360);
+  createCanvas(640,400);
    ship = createSprite(width/2, height/2);
    ship.addImage(loadImage("images/rocket0.png"));
    missiles = new Group();
